@@ -94,9 +94,6 @@ def getInputs():
         config.telemetry["controller"] = "Xbox Controller"
     else:
         config.telemetry["controller"] = "Unknown Controller"
-    
-    # the below line of code is temporary
-    inputs.test = joystick
 
     hats = joystick.get_numhats()
     
