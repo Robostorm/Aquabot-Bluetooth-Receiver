@@ -64,8 +64,6 @@ def getInputs():
 
     inputs.buttons = joystick.get_numbuttons()
     
-    #print(name)
-    
     if name == "Sony Computer Entertainment Wireless Controller":
         inputs.a = joystick.get_button(0)
         inputs.b = joystick.get_button(1)
